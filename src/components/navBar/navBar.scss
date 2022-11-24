@@ -21,7 +21,7 @@
     // margin-right: 31rem;
 
     @media screen and (max-width: 600px) {
-      font-size: 1.5rem;
+      font-size: 3rem;
     }
   }
 
@@ -92,13 +92,12 @@
       }
       @media screen and (max-width: 900px) {
         padding: 1.1rem 2rem;
-        min-width: 8.7rem;
-        height: 3.2rem;
+        min-width: 10.7rem;
+        height: 4.2rem;
       }
       @media screen and (max-width: 600px) {
-        font-size: 1.1rem;
-        min-width: 7rem;
-        height: 2rem;
+        min-width: 8rem;
+        height: 3rem;
 
         padding: 0.3rem 0.6rem;
       }

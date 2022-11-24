@@ -1,0 +1,22 @@
+.companies {
+  min-height: 239px;
+  background: #f5f6f8;
+  text-align: center;
+  padding: 6.4rem 8.7rem 7.6rem;
+
+  &__header {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: #000000;
+    margin-bottom: 3.6rem;
+  }
+
+  &__logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.95rem;
+    flex-wrap: wrap;
+  }
+}
