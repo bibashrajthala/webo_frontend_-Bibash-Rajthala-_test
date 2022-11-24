@@ -5,12 +5,17 @@
 
 .abovefold__header {
   padding: 3.8rem 11.7rem 0 12.1rem;
+  position: relative;
+  overflow: hidden;
 
-  min-height: 86rem;
+  height: 86rem;
   background: linear-gradient(292.12deg, #62bada -35.02%, #c9e7f2 78.96%);
 
   @media screen and (max-width: 1200px) {
     padding: 2rem 8rem 0;
+  }
+  @media screen and (max-width: 900px) {
+    height: auto;
   }
   @media screen and (max-width: 600px) {
     padding: 1rem 2rem 0;
