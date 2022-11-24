@@ -1,0 +1,117 @@
+.main {
+  background: #fafbff;
+  &__header {
+    padding-top: 7.1rem;
+    padding-right: 15rem;
+    padding-left: 11.9rem;
+    display: flex;
+    &-left {
+      width: 55%;
+      & .main__header-heading {
+        // font-family: "Manrope";
+        // font-style: normal;
+        font-weight: 800;
+        font-size: 5.6rem;
+        line-height: 6.6rem;
+        letter-spacing: -0.03em;
+        color: #000000;
+      }
+      & .main__header-text {
+        margin-top: 1.9rem;
+        font-size: 1.6rem;
+        line-height: 2.9rem;
+        letter-spacing: -0.02em;
+      }
+    }
+    &-right,
+    &-testimonial {
+      width: 402px;
+      height: 197px;
+    }
+
+    &-quotation {
+      position: relative;
+
+      margin-top: 2rem;
+      margin-left: 12.3rem;
+      padding: 3.55rem 3.4rem 3.3rem;
+      width: 402px;
+      height: 177px;
+      background: hsla(0, 0%, 77%, 0.3);
+      //   opacity: 0.3;
+      border-radius: 20px;
+    }
+    &-quote-sign {
+      position: absolute;
+      width: 4.4rem;
+      height: 4.4rem;
+      border-radius: 50%;
+      left: 3rem;
+      top: -2rem;
+      background: #000000;
+    }
+
+    &-quote,
+    &-quote-person {
+      font-weight: 600;
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+      letter-spacing: -0.02em;
+      color: #000000;
+      opacity: 1;
+    }
+    &-quote-person {
+      margin-top: 1.8rem;
+    }
+  }
+
+  &__cards {
+    padding: 7.1rem 11.7rem 0 12.1rem;
+    display: flex;
+  }
+  &__cards > *:not(:last-child) {
+    margin-right: 3.1rem;
+  }
+
+  &__card {
+    width: 38rem;
+    height: 38.2rem;
+    background: #ffffff;
+    border: 1px solid #dbe4e9;
+    border-radius: 20px;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    padding: 0 6.5rem 4.5rem 5rem;
+  }
+
+  &__card-number {
+    position: absolute;
+    left: 2.2rem;
+    top: 2.1rem;
+    font-weight: 800;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    /* identical to box height */
+  }
+  &__card-color {
+    margin-top: 9.3rem;
+  }
+
+  &__card-heading {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 3.4rem;
+    letter-spacing: -0.03em;
+    margin-top: 3.1rem;
+  }
+
+  &__card-text {
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    letter-spacing: -0.02em;
+    margin-top: 1.7rem;
+  }
+}

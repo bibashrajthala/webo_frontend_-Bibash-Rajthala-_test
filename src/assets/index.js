@@ -11,6 +11,10 @@ import company4 from "./company4.png";
 import company5 from "./company5.png";
 import company6 from "./company6.png";
 import company7 from "./company7.png";
+import quote1 from "./quote1.png";
+import mainCardColor1 from "./mainCardColor1.png";
+import mainCardColor2 from "./mainCardColor2.png";
+import mainCardColor3 from "./mainCardColor3.png";
 
 const assets = {
   headerImg,
@@ -26,6 +30,10 @@ const assets = {
   company5,
   company6,
   company7,
+  quote1,
+  mainCardColor1,
+  mainCardColor2,
+  mainCardColor3,
 };
 
 export default assets;
