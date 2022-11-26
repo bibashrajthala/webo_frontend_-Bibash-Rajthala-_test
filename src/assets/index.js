@@ -27,6 +27,9 @@ import testimonial1 from "./testimonial1.png";
 import testimonial2 from "./testimonial2.png";
 import testimonialSide from "./testimonialSide.png";
 import testimonialQuote from "./testimonialQuote.png";
+import statsSymbol1 from "./statsSymbol1.png";
+import statsSymbol2 from "./statsSymbol2.png";
+import statsSide from "./statsSide.png";
 
 const assets = {
   headerImg,
@@ -58,6 +61,9 @@ const assets = {
   testimonial2,
   testimonialQuote,
   testimonialSide,
+  statsSymbol1,
+  statsSymbol2,
+  statsSide,
 };
 
 export default assets;

@@ -21,7 +21,11 @@ const Testimonials = () => {
                 <p className="testimonials__card-text">{text}</p>
                 <p className="testimonials__card-writer">{writer}</p>
               </div>
-              <img src={image} alt="Testimony" />
+              <img
+                src={image}
+                alt="Testimony"
+                className="testimonials__card-img"
+              />
               <img
                 src={testimonialImages.testimonialQuote}
                 alt="Quatation"

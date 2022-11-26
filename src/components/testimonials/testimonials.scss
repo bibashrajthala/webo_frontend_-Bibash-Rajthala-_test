@@ -4,6 +4,9 @@
   padding-right: 0;
   //   overflow-x: scroll;
   position: relative;
+  @media screen and (max-width: 1200px) {
+    padding: 11rem;
+  }
 
   &__heading {
     font-family: "Manrope";
@@ -28,18 +31,30 @@
     margin-top: 7.4rem;
     display: flex;
     gap: 4.1rem;
+
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
   &__card {
     padding: 2.5rem;
     padding-left: 4rem;
-    width: 69.9rem;
-    height: 40rem;
+    max-width: 69.9rem;
+    max-height: 40rem;
     background: #ffffff;
     border: 1px solid #cfcfcf;
     border-radius: 1rem;
     position: relative;
 
     display: flex;
+
+    &-img {
+      @media screen and (max-width: 1200px) {
+        width: 40%;
+      }
+    }
     &-texts {
       display: flex;
       flex-direction: column;
@@ -52,6 +67,10 @@
       line-height: 3.6rem;
       letter-spacing: -0.02em;
       color: #000000;
+
+      @media screen and (max-width: 1200px) {
+        font-size: 1.5rem;
+      }
     }
     &-writer {
       font-weight: 600;
@@ -77,5 +96,9 @@
 
     top: 18rem;
     right: 18rem;
+
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
   }
 }
