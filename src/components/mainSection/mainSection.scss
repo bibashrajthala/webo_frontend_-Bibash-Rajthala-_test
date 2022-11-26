@@ -1,10 +1,24 @@
 .main {
   background: #fafbff;
+  @media screen and (max-width: 900px) {
+    padding-bottom: 6rem;
+  }
   &__header {
     padding-top: 7.1rem;
     padding-right: 15rem;
     padding-left: 11.9rem;
     display: flex;
+
+    @media screen and (max-width: 900px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      padding-top: 7.1rem;
+      padding-right: 10rem;
+      padding-left: 10rem;
+    }
+    flex-wrap: wrap;
     &-left {
       width: 55%;
       & .main__header-heading {
@@ -25,8 +39,8 @@
     }
     &-right,
     &-testimonial {
-      width: 402px;
-      height: 197px;
+      max-width: 402px;
+      max-height: 197px;
     }
 
     &-quotation {
@@ -40,6 +54,14 @@
       background: hsla(0, 0%, 77%, 0.3);
       //   opacity: 0.3;
       border-radius: 20px;
+
+      @media screen and (max-width: 900px) {
+        margin-left: 0;
+      }
+      @media screen and (max-width: 600px) {
+        width: 202px;
+        height: 150px;
+      }
     }
     &-quote-sign {
       position: absolute;
@@ -68,6 +90,13 @@
   &__cards {
     padding: 7.1rem 11.7rem 0 12.1rem;
     display: flex;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 1200px) {
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+    }
   }
   &__cards > *:not(:last-child) {
     margin-right: 3.1rem;
@@ -82,7 +111,9 @@
     color: #000000;
     text-align: center;
     position: relative;
-    padding: 0 6.5rem 4.5rem 5rem;
+    padding: 0 6.5rem 3.5rem 5rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
   }
 
   &__card-number {
@@ -113,5 +144,150 @@
     line-height: 2.6rem;
     letter-spacing: -0.02em;
     margin-top: 1.7rem;
+  }
+
+  &__content {
+    padding: 12.4rem 15rem 0 9rem;
+    display: flex;
+    // gap: 0rem;
+
+    @media screen and (max-width: 1400px) {
+      margin-bottom: 8rem;
+    }
+    @media screen and (max-width: 1200px) {
+      padding: 10rem 12rem 0 7rem;
+      // margin-bottom: 0;
+    }
+    @media screen and (max-width: 900px) {
+      padding: 10rem 12rem;
+
+      flex-direction: column;
+      gap: 3rem;
+      align-items: center;
+    }
+    &-card {
+      position: relative;
+    }
+    &-img {
+      @media screen and (max-width: 1200px) {
+        width: 500px;
+      }
+      @media screen and (max-width: 600px) {
+        width: 300px;
+      }
+    }
+
+    &-side1 {
+      position: absolute;
+      right: 13.5rem;
+      top: -2rem;
+      @media screen and (max-width: 600px) {
+        display: none;
+      }
+    }
+    &-texts {
+      padding-top: 1.1rem;
+    }
+    &-head {
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 1.9rem;
+      text-transform: uppercase;
+      color: #3734a9;
+    }
+    &-heading {
+      margin-top: 1.3rem;
+      font-weight: 800;
+      font-size: 5rem;
+      line-height: 6rem;
+      letter-spacing: -0.03em;
+      color: #000000;
+    }
+    &-text {
+      margin-top: 2.9rem;
+      font-weight: 400;
+      font-size: 1.8rem;
+      line-height: 3rem;
+      letter-spacing: -0.02em;
+    }
+    &-line {
+      margin-top: 2.3rem;
+      height: 2px;
+      background: #c4c4c4;
+    }
+    &-lists {
+      margin-top: 2.7rem;
+    }
+    &-list {
+      // border: 1px solid red;
+      display: flex;
+      align-items: center;
+      gap: 1.1rem;
+      &:not(:last-of-type) {
+        margin-bottom: 1.3rem;
+      }
+      span {
+        font-weight: 400;
+        font-size: 1.9rem;
+        line-height: 3rem;
+        letter-spacing: -0.02em;
+      }
+    }
+  }
+
+  &__content2 {
+    padding: 4.5rem 14.8rem 0 12.1rem;
+    display: flex;
+
+    // @media screen and (max-width: 1200px) {
+    //   padding: 10rem 12rem 0 7rem;
+    // }
+    @media screen and (max-width: 900px) {
+      // padding: 10rem 12rem;
+
+      flex-direction: column-reverse;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    & .main__content-texts {
+      width: 39%;
+      @media screen and (max-width: 900px) {
+        width: 80%;
+      }
+    }
+
+    & .main__content-text {
+      margin-top: 1.3rem;
+    }
+
+    & .main__header-quotation {
+      position: relative;
+
+      margin-top: 5.5rem;
+      margin-left: 0;
+      padding: 3.55rem 2rem 3.3rem;
+
+      width: 479px;
+      height: 152px;
+      background: hsla(0, 0%, 77%, 0.3);
+      border-radius: 20px;
+
+      @media screen and (max-width: 1200px) {
+        width: 302px;
+        height: 130px;
+      }
+      @media screen and (max-width: 600px) {
+        width: 202px;
+        height: 120px;
+      }
+    }
+
+    & .main__content-card {
+      margin-top: -17rem;
+      margin-left: 1.3rem;
+
+      // width: 50%;
+    }
   }
 }

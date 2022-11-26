@@ -15,6 +15,14 @@ import quote1 from "./quote1.png";
 import mainCardColor1 from "./mainCardColor1.png";
 import mainCardColor2 from "./mainCardColor2.png";
 import mainCardColor3 from "./mainCardColor3.png";
+import mainContent1 from "./mainContent1.png";
+import mainContent2 from "./mainContent2.png";
+import mainSide1 from "./mainSide1.png";
+import mainSide2 from "./mainSide2.png";
+import mainCheck from "./mainCheck.png";
+import featuresSide1 from "./featuresSide1.png";
+import featuresCard1 from "./featuresCard1.png";
+import featuresCard2 from "./featuresCard2.png";
 
 const assets = {
   headerImg,
@@ -34,6 +42,14 @@ const assets = {
   mainCardColor1,
   mainCardColor2,
   mainCardColor3,
+  mainContent1,
+  mainContent2,
+  mainSide1,
+  mainSide2,
+  mainCheck,
+  featuresSide1,
+  featuresCard1,
+  featuresCard2,
 };
 
 export default assets;
