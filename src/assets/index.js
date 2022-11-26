@@ -23,6 +23,10 @@ import mainCheck from "./mainCheck.png";
 import featuresSide1 from "./featuresSide1.png";
 import featuresCard1 from "./featuresCard1.png";
 import featuresCard2 from "./featuresCard2.png";
+import testimonial1 from "./testimonial1.png";
+import testimonial2 from "./testimonial2.png";
+import testimonialSide from "./testimonialSide.png";
+import testimonialQuote from "./testimonialQuote.png";
 
 const assets = {
   headerImg,
@@ -50,6 +54,10 @@ const assets = {
   featuresSide1,
   featuresCard1,
   featuresCard2,
+  testimonial1,
+  testimonial2,
+  testimonialQuote,
+  testimonialSide,
 };
 
 export default assets;

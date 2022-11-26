@@ -1,0 +1,81 @@
+.testimonials {
+  background: #fafbff;
+  padding: 15rem 11.9rem;
+  padding-right: 0;
+  //   overflow-x: scroll;
+  position: relative;
+
+  &__heading {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 7.1rem;
+    line-height: 6.6rem;
+    letter-spacing: -0.03em;
+  }
+  &__text {
+    margin-top: 3.7rem;
+    max-width: 57rem;
+    min-height: 5.8rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    /* or 181% */
+
+    letter-spacing: -0.02em;
+  }
+  &__cards {
+    margin-top: 7.4rem;
+    display: flex;
+    gap: 4.1rem;
+  }
+  &__card {
+    padding: 2.5rem;
+    padding-left: 4rem;
+    width: 69.9rem;
+    height: 40rem;
+    background: #ffffff;
+    border: 1px solid #cfcfcf;
+    border-radius: 1rem;
+    position: relative;
+
+    display: flex;
+    &-texts {
+      display: flex;
+      flex-direction: column;
+      gap: 4.1rem;
+      justify-content: center;
+    }
+    &-text {
+      font-weight: 600;
+      font-size: 2.5rem;
+      line-height: 3.6rem;
+      letter-spacing: -0.02em;
+      color: #000000;
+    }
+    &-writer {
+      font-weight: 600;
+      font-size: 2rem;
+      line-height: 2.2rem;
+      letter-spacing: -0.02em;
+      color: #000000;
+    }
+
+    &-quote {
+      position: absolute;
+      width: 5.7rem;
+      height: 5.7rem;
+      left: 3rem;
+      top: -2.8rem;
+      border-radius: 50%;
+
+      background: #000000;
+    }
+  }
+  &__side {
+    position: absolute;
+
+    top: 18rem;
+    right: 18rem;
+  }
+}
