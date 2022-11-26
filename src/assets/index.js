@@ -44,6 +44,10 @@ import ctaSide2 from "./ctaSide2.png";
 import ctaSide3 from "./ctaSide3.png";
 import ctaSide4 from "./ctaSide4.png";
 import ctaSide5 from "./ctaSide5.png";
+import footerTwoo from "./footerTwoo.png";
+import footerTwitter from "./footerTwitter.png";
+import footerMessenger from "./footerMessenger.png";
+import footerLinkedIn from "./footerLinkedin.png";
 
 const assets = {
   headerImg,
@@ -92,6 +96,10 @@ const assets = {
   ctaSide3,
   ctaSide4,
   ctaSide5,
+  footerTwitter,
+  footerTwoo,
+  footerLinkedIn,
+  footerMessenger,
 };
 
 export default assets;

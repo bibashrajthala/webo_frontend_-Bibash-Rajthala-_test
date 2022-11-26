@@ -1,0 +1,108 @@
+.footer {
+  margin: 15rem 11.7rem 5.8rem 12.3rem;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #e5e5ea;
+    padding-bottom: 5.2rem;
+
+    @media screen and (max-width: 900px) {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 5rem;
+    }
+  }
+  &__heading {
+    font-weight: 700;
+    font-size: 2.1rem;
+    line-height: 2.4rem;
+    color: #181433;
+  }
+  &__text {
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.02em;
+    color: #757095;
+  }
+  &__link {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #181433;
+  }
+  &__socials {
+    &-icons {
+      margin-top: 3.1rem;
+      display: flex;
+      gap: 1.6rem;
+    }
+  }
+
+  &__company {
+    &-links {
+      margin-top: 2.4rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.8rem;
+    }
+  }
+
+  &__resources {
+    &-links {
+      margin-top: 2.4rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+  }
+
+  &__form {
+    margin-top: 2.4rem;
+
+    &-input {
+      width: calc(38.9rem - 14.9rem);
+      height: 5.2rem;
+      padding: 1.5rem 2rem 1.1rem 1.5rem;
+      border: none;
+      outline: none;
+      background: #eeeeff;
+
+      &::placeholder {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        letter-spacing: -0.02em;
+        color: #181433;
+        opacity: 0.2;
+      }
+    }
+    &-btn {
+      width: 14.9rem;
+      height: 5.2rem;
+      background: #3734a9;
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      border: none;
+    }
+  }
+
+  &__copyright {
+    margin-top: 4rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #181433;
+  }
+}
