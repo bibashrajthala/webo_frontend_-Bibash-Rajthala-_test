@@ -35,7 +35,10 @@ import blogCard1 from "./blogCard1.png";
 import blogCard2 from "./blogCard2.png";
 import blogCard3 from "./blogCard3.png";
 import blogCard4 from "./blogCard4.png";
-
+import faqSide1 from "./faqSide1.png";
+import faqSide2 from "./faqSide2.png";
+import faqCardIcon from "./faqCardIcon.png";
+import faqPlusIcon from "./faqPlusIcon.png";
 const assets = {
   headerImg,
   headerSide1,
@@ -74,6 +77,10 @@ const assets = {
   blogCard2,
   blogCard3,
   blogCard4,
+  faqCardIcon,
+  faqPlusIcon,
+  faqSide1,
+  faqSide2,
 };
 
 export default assets;
