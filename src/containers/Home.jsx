@@ -1,6 +1,7 @@
 import React from "react";
 import AboveFold from "../components/aboveFold/AboveFold";
 import Blogs from "../components/blogs/Blogs";
+import Cta from "../components/cta/Cta";
 import Faq from "../components/faq/Faq";
 import Features from "../components/features/Features";
 import MainSection from "../components/mainSection/MainSection";
@@ -17,6 +18,7 @@ const Home = () => {
       <Stats />
       <Blogs />
       <Faq />
+      <Cta />
     </div>
   );
 };

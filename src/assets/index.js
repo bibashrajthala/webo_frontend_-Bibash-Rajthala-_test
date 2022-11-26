@@ -39,6 +39,12 @@ import faqSide1 from "./faqSide1.png";
 import faqSide2 from "./faqSide2.png";
 import faqCardIcon from "./faqCardIcon.png";
 import faqPlusIcon from "./faqPlusIcon.png";
+import ctaSide1 from "./ctaSide1.png";
+import ctaSide2 from "./ctaSide2.png";
+import ctaSide3 from "./ctaSide3.png";
+import ctaSide4 from "./ctaSide4.png";
+import ctaSide5 from "./ctaSide5.png";
+
 const assets = {
   headerImg,
   headerSide1,
@@ -81,6 +87,11 @@ const assets = {
   faqPlusIcon,
   faqSide1,
   faqSide2,
+  ctaSide1,
+  ctaSide2,
+  ctaSide3,
+  ctaSide4,
+  ctaSide5,
 };
 
 export default assets;
