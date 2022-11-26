@@ -30,6 +30,11 @@ import testimonialQuote from "./testimonialQuote.png";
 import statsSymbol1 from "./statsSymbol1.png";
 import statsSymbol2 from "./statsSymbol2.png";
 import statsSide from "./statsSide.png";
+import blogArrow from "./blogArrow.png";
+import blogCard1 from "./blogCard1.png";
+import blogCard2 from "./blogCard2.png";
+import blogCard3 from "./blogCard3.png";
+import blogCard4 from "./blogCard4.png";
 
 const assets = {
   headerImg,
@@ -64,6 +69,11 @@ const assets = {
   statsSymbol1,
   statsSymbol2,
   statsSide,
+  blogArrow,
+  blogCard1,
+  blogCard2,
+  blogCard3,
+  blogCard4,
 };
 
 export default assets;
